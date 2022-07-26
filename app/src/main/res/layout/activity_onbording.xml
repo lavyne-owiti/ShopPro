@@ -4,42 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnbordingActivity"
-    android:background="@drawable/onboarding">
+    tools:context=".OnboardingoneActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imghoodone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/colorhood" />
+
+    <ImageView
+        android:id="@+id/imghoodtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hood" />
+
+    <ImageView
+        android:id="@+id/imghoodthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hoods" />
+
+    <TextView
+        android:id="@+id/tvshape"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shapes"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imghoodthree" />
+
+    <TextView
+        android:id="@+id/tvStatement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:text=" Hoodies are customized to your own liking"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/tvshape"
+        app:layout_constraintStart_toStartOf="@+id/tvshape"
+        app:layout_constraintTop_toBottomOf="@+id/tvHood" />
+
+    <TextView
+        android:id="@+id/tvDis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="24dp"
+        android:text="DISCOUNT 3%"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/tvshape"
+        app:layout_constraintEnd_toEndOf="@+id/tvshape"
+        app:layout_constraintStart_toStartOf="@+id/tvshape"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatement" />
 
     <TextView
         android:id="@+id/tvHood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
-        android:text="Hoddies"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="126dp"
+        android:text="HOODIES"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/tvshape"
+        app:layout_constraintStart_toStartOf="@+id/tvshape"
+        app:layout_constraintTop_toTopOf="@+id/tvshape" />
 
-    <TextView
-        android:id="@+id/tvWordshood"
+    <ImageView
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Hoodies customized to you own liking."
-        android:textColor="#FFFFFF"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHood" />
-
-    <TextView
-        android:id="@+id/tvDisHood"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Discount  5%"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvWordshood" />
+        app:srcCompat="@drawable/ic_baseline_keyboard_double_arrow_right_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

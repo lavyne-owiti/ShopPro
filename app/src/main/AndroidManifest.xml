@@ -10,13 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShopPro">
         <activity
-            android:name=".OnBoardActivity"
+            android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".OnBoardingActivity"
+            android:name=".SIgnUpActivity"
             android:exported="false" />
         <activity
-            android:name=".OnbordingActivity"
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingtwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingoneActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

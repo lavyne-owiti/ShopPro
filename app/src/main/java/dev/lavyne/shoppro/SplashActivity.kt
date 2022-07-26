@@ -8,7 +8,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
-        val intent=Intent(this,OnbordingActivity::class.java)
+        val intent=Intent(this,OnboardingoneActivity::class.java)
         startActivity(intent)
     }
 }

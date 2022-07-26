@@ -4,40 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnBoardingActivity"
-    android:background="@drawable/boarding">
+    tools:context=".OnBoardingtwoActivity">
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/tvShaptwo"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBanner" />
 
     <TextView
         android:id="@+id/tvBanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
-        android:text="Banners"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="129dp"
+        android:text="BANNERS"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/tvShaptwo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvShaptwo"
+        app:layout_constraintTop_toTopOf="@+id/tvShaptwo" />
 
     <TextView
-        android:id="@+id/tvBannerwords"
+        android:id="@+id/tvState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Unique designs come to life"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:text=" Custom printed banners with the highest quality."
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/tvShaptwo"
+        app:layout_constraintStart_toStartOf="@+id/tvShaptwo"
         app:layout_constraintTop_toBottomOf="@+id/tvBanner" />
 
     <TextView
-        android:id="@+id/tvDiscount"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Discount 3%"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="34dp"
+        android:text="DISCOUNT 3%"
         android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@+id/tvBannerwords"
-        tools:layout_editor_absoluteX="183dp" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvShaptwo"
+        app:layout_constraintEnd_toEndOf="@+id/tvShaptwo"
+        app:layout_constraintStart_toStartOf="@+id/tvShaptwo"
+        app:layout_constraintTop_toBottomOf="@+id/tvState" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_keyboard_double_arrow_right_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

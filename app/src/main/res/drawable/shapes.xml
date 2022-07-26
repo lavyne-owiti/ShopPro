@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-  <item>
-      <bitmap android:gravity="fill"
-          android:src="@drawable/splashs"/>
-  </item>
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="#CC000000"/>
+    </shape>
+</item>
 </selector>
