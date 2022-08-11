@@ -3,16 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.162" />
         <entry key="app/src/main/res/drawable/ic_baseline_keyboard_double_arrow_right_24.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.162" />
+        <entry key="app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/onboard1.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/onboard2.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/onboard3.xml" value="0.148" />
         <entry key="app/src/main/res/drawable/shapes.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/splash_bg.xml" value="0.152" />
+        <entry key="app/src/main/res/layout/activity_confirm_password.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_on_board.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.19375" />
-        <entry key="app/src/main/res/layout/activity_onbording.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_onbording.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_reset_passord.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_sign_up2.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_verification.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_cart.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/layout/slider.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>

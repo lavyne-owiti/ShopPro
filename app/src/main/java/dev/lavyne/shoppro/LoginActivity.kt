@@ -12,11 +12,35 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         clickable()
+        validate()
     }
     fun clickable(){
         binding.tvSignup.setOnClickListener {
             val intent=Intent(this,SIgnUpActivity::class.java)
             startActivity(intent)
+        }
+        binding.tvForgPassword.setOnClickListener {
+            val intent=Intent(this,ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+
+    }
+    fun validate(){
+        var error=false
+        binding.tilPassword.error=null
+        binding.tilEmail.error=null
+        var email=binding.etEmail.text.toString()
+        var password=binding.etPassword.text.toString()
+        if(email.isBlank()){
+            binding.tilEmail.error="Email is required"
+            error=true
+        }
+        if(password.isBlank()){
+            binding.tilPassword.error="Password is required"
+            error=true
+        }
+        if (!error){
+
         }
 
     }
